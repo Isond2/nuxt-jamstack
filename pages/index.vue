@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <div>oui nuxt non</div>
-    <h1>{{ contentData }}</h1>
     <nuxt-content :document="contentData" />
   </div>
 </template>
